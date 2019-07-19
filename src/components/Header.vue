@@ -74,6 +74,7 @@
               <b-button
                 v-b-modal.modal-prevent-closing
                 class="btn btn-secondary navbar-btn"
+                @click="onAskQuestion"
               >ASK A QUESTION</b-button>
             </li>
           </ul>
@@ -122,6 +123,9 @@ export default {
     };
   },
   methods: {
+    onAskQuestion() {
+      this.$refs.collapse.classList.toggle("show");
+    },
     checkFormValidity() {
       const valid = this.$refs.form.checkValidity();
       this.nameState = valid ? "valid" : "invalid";
@@ -166,5 +170,8 @@ ul li a {
   font-weight: 400;
 }
 .topbar {
+}
+.navbar-btn {
+  float: right;
 }
 </style>
