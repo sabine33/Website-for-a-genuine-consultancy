@@ -1,3 +1,7 @@
+
+git clone https://username@github.com/username/repo_name
+
+
 # genuine
 
 > Genuine Consultancy Website
