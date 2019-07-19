@@ -28,8 +28,8 @@
             <h1 data-animation="animated flipInX">
               <span>Consultancy</span>
             </h1>
-
-            <a href="contact.html" data-animation="animated flipInX">GET FREE QUOTE</a>
+            <!-- 
+            <a href="contact.html" data-animation="animated flipInX">GET FREE QUOTE</a>-->
           </div>
         </div>
         <!-- End of Slide -->
