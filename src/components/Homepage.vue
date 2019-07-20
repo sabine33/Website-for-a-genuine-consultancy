@@ -103,9 +103,9 @@
         <div class="row row-services" style="margin-top:40px;">
           <div class="col-xs-12 col-md-6">
             <div class="card card-services">
-              <div class="card-body">
-                <i class="icon ion-android-globe services-icon"></i>
-                <h4 class="card-title" style="font-size:1.4em;">
+              <div class="card-body text-center">
+                <i class="fas fa-globe fa-3x py-2"></i>
+                <h4 class="card-title" style="font-size:1.6em;">
                   <strong>Migration</strong>
                   <br />
                 </h4>
@@ -117,9 +117,9 @@
           </div>
           <div class="col-xs-12 col-md-6">
             <div class="card card-services">
-              <div class="card-body">
-                <i class="icon ion-android-globe"></i>
-                <h4 class="card-title" style="font-size:1.4em;">
+              <div class="card-body text-center">
+                <i class="fas fa-globe fa-3x py-2"></i>
+                <h4 class="card-title" style="font-size:1.6em;">
                   <strong>Skill Assesment</strong>
                   <br />
                 </h4>
@@ -134,9 +134,9 @@
         <div class="row row-services mt-5">
           <div class="col-xs-12 col-md-6">
             <div class="card card-services">
-              <div class="card-body">
-                <i class="icon ion-android-globe"></i>
-                <h4 class="card-title" style="font-size:1.4em;">Different Courses</h4>
+              <div class="card-body text-center">
+                <i class="fas fa-globe fa-3x py-2"></i>
+                <h4 class="card-title" style="font-size:1.6em;">Different Courses</h4>
                 <h6
                   class="text-muted card-subtitle my-3"
                 >Different courses like NATI , PTE , RPL have been offered by genuine to make you ready .</h6>
@@ -144,10 +144,10 @@
             </div>
           </div>
           <div class="col-xs-12 col-md-6">
-            <div class="card card-services" style>
-              <div class="card-body">
-                <i class="icon ion-android-globe"></i>
-                <h4 class="card-title" style="font-size:1.4em;">Overseas Health Insurance</h4>
+            <div class="card card-services">
+              <div class="card-body text-center">
+                <i class="fas fa-globe fa-3x py-2"></i>
+                <h4 class="card-title" style="font-size:1.6em;">Overseas Health Insurance</h4>
                 <h6 class="text-muted card-subtitle my-3">
                   Concerning healthcare, getting an OSHC for Australia is as important as it gets.
                   Compare and buy between different plans and know what you pay for, get on the spot quotes etc. depending on the type of your visa cover.
@@ -364,7 +364,7 @@ export default {};
   background: #5f27cd;
 }
 .card-body {
-  min-height: 250px;
+  min-height: 290px;
 }
 .card-body:hover {
   box-shadow: 8px 8px 8px 8px #888888;
