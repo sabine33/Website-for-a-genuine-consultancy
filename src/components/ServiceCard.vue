@@ -401,6 +401,7 @@ footer p a:hover {
 
   .nav-tabs .nav-item > .nav-link {
     margin-bottom: 5px;
+    font-size: 1em;
   }
 }
 </style>

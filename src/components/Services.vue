@@ -3,13 +3,14 @@
     <Jumbotron
       title="Services"
       leadText=" We provide end-to-end counseling and application management services to students searching for affordable university and college for various course in Diploma, Bachelor, Master."
+      data-aos="zoom-in"
     />
     <vue-facebook-page
       data-href="https://www.facebook.com/techbytesonline/"
       link-text="Genuine Consultancy"
       class="col-lg-12"
     />
-    <section class="services pt-5 pb-100" id="services">
+    <section class="services pt-5 pb-100" id="services" data-aos="zoom-in">
       <div class="container">
         <div class="row">
           <div class="col-lg-4 col-md-6">

@@ -3,8 +3,9 @@
     <Jumbotron
       title="Testimonials"
       leadText="Our customers love us! Read what they have to say below. "
+      data-aos="fade-up"
     />
-    <div class="testimonials-clean">
+    <div class="testimonials-clean" data-aos="fade-up">
       <div class="container">
         <div class="row people">
           <div class="col-md-6 col-lg-4 item">
@@ -43,7 +44,7 @@
             <div class="author">
               <img class="rounded-circle" src="static/img/2.jpg" />
               <h5 class="name">Daenerys Targareyan</h5>
-            <p class="title">Owner of Creative Ltd.</p>
+              <p class="title">Owner of Creative Ltd.</p>
             </div>
           </div>
         </div>

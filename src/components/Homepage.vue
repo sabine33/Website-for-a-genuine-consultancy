@@ -7,6 +7,7 @@
       data-pause="hover"
       data-interval="5000"
       data-duration="2000"
+      data-aos="zoom-in"
     >
       <!-- Indicators -->
       <ol class="carousel-indicators">
@@ -67,7 +68,7 @@
       <!-- End of Wrapper For Slides -->
     </div>
 
-    <div class="row aboutus" style="margin-right:0px;">
+    <div class="row aboutus" style="margin-right:0px;" data-aos="fade-up">
       <div
         class="col-xs-12 col-md-4 py-3 px-5"
         style="margin: 0px;min-height: 100vh;background-color: rgb(3,169,245);"
@@ -174,7 +175,7 @@
       </div>
     </div>
 
-    <div class="section-block-grey">
+    <div class="section-block-grey" data-aos="zoom-in">
       <div class="container">
         <div class="section-heading center-holder">
           <h3>Doing the right thing at the right time</h3>
@@ -222,8 +223,7 @@
       </div>
     </div>
 
-    <div class="map-clean my-0"></div>
-    <div style="background-color: #ffffff;">
+    <div style="background-color: #ffffff;" data-aos="zoom-in">
       <div class="container">
         <div class="row">
           <div class="col-md-12">

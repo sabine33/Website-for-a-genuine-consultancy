@@ -3,8 +3,10 @@
     <Jumbotron
       title="Contact Us"
       leadText=" We provide end-to-end counseling and application management services to students searching for affordable university and college for various course in Diploma, Bachelor, Master."
+         data-aos="zoom-in"
+
     />
-       <div class="py-5" style="margin-top: 0px;background-color: #EEF4F7;">
+       <div class="py-5" style="margin-top: 0px;background-color: #EEF4F7;"       data-aos="zoom-in">
         <div class="container my-0">
             <form id="contactForm" action="javascript:void(0);" method="get"><input class="form-control" type="hidden" name="Introduction" value="This email was sent from www.awebsite.com"><input class="form-control" type="hidden" name="subject" value="Awebsite.com Contact Form"><input class="form-control" type="hidden"
                     name="to" value="email@awebsite.com">

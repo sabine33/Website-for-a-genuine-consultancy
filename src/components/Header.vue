@@ -92,20 +92,34 @@
     >
       <form ref="form" @submit.stop.prevent="handleSubmit">
         <b-form-group
-          :state="nameState"
           label="Name"
           label-for="name-input"
           invalid-feedback="Name is required"
+          :state="nameState"
         >
-          <b-form-input id="name-input" v-model="name" :state="nameState" required></b-form-input>
+          <b-form-input id="name-input" v-model="name" required></b-form-input>
         </b-form-group>
         <b-form-group
-          :state="nameState"
-          label="Name"
-          label-for="name-input"
-          invalid-feedback="Name is required"
+          label="Email"
+          label-for="email-input"
+          invalid-feedback="Email is required"
+          :state="emailState"
         >
-          <b-form-input id="name-input" v-model="name" :state="nameState" required></b-form-input>
+          <b-form-input id="email-input" v-model="email" type="email" required></b-form-input>
+        </b-form-group>
+        <b-form-group
+          label="Message"
+          label-for="message-input"
+          invalid-feedback="Message is required"
+          :state="messageState"
+        >
+          <b-form-textarea
+            id="message"
+            v-model="message"
+            placeholder="Enter your message..."
+            rows="3"
+            max-rows="3"
+          ></b-form-textarea>
         </b-form-group>
       </form>
     </b-modal>
@@ -118,8 +132,11 @@ export default {
     return {
       toggledNav: false,
       name: "",
+      email: "",
+      message: "",
       nameState: null,
-      submittedNames: []
+      emailState: null,
+      messageState: null
     };
   },
   methods: {
@@ -129,16 +146,17 @@ export default {
     checkFormValidity() {
       const valid = this.$refs.form.checkValidity();
       this.nameState = valid ? "valid" : "invalid";
-      return valid;
+      this.emailState = valid ? "valid" : "invalid";
+      this.messageState = valid ? "valid" : "invalid";
+
+      return this.nameState && this.emailState && this.messageState;
     },
     resetModal() {
       this.name = "";
-      this.nameState = null;
     },
     handleOk(bvModalEvt) {
       // Prevent modal from closing
       bvModalEvt.preventDefault();
-      // Trigger submit handler
       this.handleSubmit();
     },
     handleSubmit() {
@@ -147,7 +165,8 @@ export default {
         return;
       }
       // Push the name to submitted names
-      this.submittedNames.push(this.name);
+      alert("Your message has been successfully sent");
+
       // Hide the modal manually
       this.$nextTick(() => {
         this.$refs.modal.hide();

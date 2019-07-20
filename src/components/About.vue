@@ -3,8 +3,9 @@
     <Jumbotron
       title="About Us"
       leadText=" We provide end-to-end counseling and application management services to students searching for affordable university and college for various course in Diploma, Bachelor, Master."
+      data-aos="zoom-in"
     />
-    <div class="highlight-phone py-5">
+    <div class="highlight-phone py-5" data-aos="zoom-in">
       <div class="container">
         <div class="row">
           <div class="col-md-12">
@@ -19,7 +20,7 @@
         </div>
       </div>
     </div>
-    <div class="team-boxed">
+    <div class="team-boxed" data-aos="zoom-in">
       <div class="container">
         <div class="intro">
           <h2 class="text-center">Our Team</h2>
