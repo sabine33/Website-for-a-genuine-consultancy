@@ -3,52 +3,67 @@
     <footer>
       <div class="container">
         <div class="row">
-          <div class="col-xs-12 col-md-4 item text">
-            <h3>Genuine Consultancy</h3>
-            <p>
-              Since 2016,Genuine Education and Visa Services have been continuously providing the excellent
-              service to clients to fulfill endeavor of living quality life in Australia.
-            </p>
-          </div>
           <div class="col-xs-12 col-md-4 item text-center">
             <h3>Services</h3>
             <ul>
-              <li>
+              <li class="py-1">
                 <a href="#">Home</a>
               </li>
-              <li>
+              <li class="py-1">
                 <a href="#">About Us</a>
               </li>
-              <li>
+              <li class="py-1">
                 <a href="#">Services</a>
               </li>
-              <li>
+              <li class="py-1">
                 <a href="#">Courses</a>
               </li>
-              <li>
+              <li class="py-1">
                 <a href="#">Contact Us</a>
               </li>
             </ul>
           </div>
+          <div class="col-xs-12 col-md-4 item social text-center d-flex justify-content-center">
+            <ul style="text-align: left">
+              <li class="py-1">
+                <a href="#">
+                  <i class="fa fa-phone" style="font-size:1em;"></i>
+                  <span>+9978973837</span>
+                </a>
+              </li>
+              <li class="py-1">
+                <a href="#">
+                  <i class="fa fa-envelope" style="font-size:1em;"></i>
+                  <span>genuineconsultancy@gmail.com</span>
+                </a>
+              </li>
+              <li class="py-1">
+                <a href="#">
+                  <i class="fa fa-map" style="font-size:1em;"></i>
+                  <span>Sydney,Australia</span>
+                </a>
+              </li>
+            </ul>
+          </div>
 
-          <div class="col-xs-12 col-md-4 item social">
-            <ul style="text-align: center">
-              <li>
+          <div
+            class="col-xs-12 col-md-4 item social text-center d-flex justify-content-center"
+            style
+          >
+            <ul style="text-align: center;display:flex;justify-content:center;">
+              <li class="px-3">
                 <a href="#">
-                  <i class="icon ion-social-facebook"></i>
-                  <span>https://facebook.com</span>
+                  <i class="fab fa-facebook fa-3x"></i>
                 </a>
               </li>
-              <li>
+              <li class="px-3">
                 <a href="#">
-                  <i class="icon ion-social-twitter"></i>
-                  <span>https://twitter.com</span>
+                  <i class="fab fa-twitter fa-3x"></i>
                 </a>
               </li>
-              <li>
+              <li class="px-3">
                 <a href="#">
-                  <i class="icon ion-social-instagram"></i>
-                  <span>https://instagram.com</span>
+                  <i class="fab fa-instagram fa-3x"></i>
                 </a>
               </li>
             </ul>
@@ -61,9 +76,9 @@
 </template>
 
 <style scoped>
-.social ul li a i {
+/* .social ul li a i {
   font-size: 1.5em;
-}
+} */
 .footer-dark {
   padding: 40px 0px;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;

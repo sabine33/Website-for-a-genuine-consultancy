@@ -7,7 +7,6 @@
       data-pause="hover"
       data-interval="5000"
       data-duration="2000"
-      data-aos="zoom-in"
     >
       <!-- Indicators -->
       <ol class="carousel-indicators">
@@ -25,10 +24,8 @@
 
           <!-- Slide Text Layer -->
           <div class="fw_al_007_slide">
-            <h3 data-animation="animated flipInX">Welcome to Genuine</h3>
-            <h1 data-animation="animated flipInX">
-              <span>Consultancy</span>
-            </h1>
+            <h1 data-animation="animated flipInX">Helping student to achieve their dream.</h1>
+            <h3 class="py-2">WITH LESS STUFF, MORE MEANING</h3>
             <!-- 
             <a href="contact.html" data-animation="animated flipInX">GET FREE QUOTE</a>-->
           </div>
@@ -57,9 +54,9 @@
 
           <!-- Slide Text Layer -->
           <div class="fw_al_007_slide">
-            <h3 data-animation="animated flipInX">We are Genuine</h3>
+            <h3 data-animation="animated flipInX">CHANGE YOUR VISA FROM VISITOR TO</h3>
             <h1 data-animation="animated flipInX">
-              <span>AWESOME</span> and BEST
+              <span>STUDENT</span> ONE
             </h1>
           </div>
         </div>
@@ -68,17 +65,15 @@
       <!-- End of Wrapper For Slides -->
     </div>
 
-    <div class="row aboutus" style="margin-right:0px;" data-aos="fade-up">
+    <div class="row aboutus" style="margin-right:0px;">
       <div
         class="col-xs-12 col-md-4 py-3 px-5"
         style="margin: 0px;min-height: 100vh;background-color: rgb(3,169,245);"
       >
-        <h1 class="text-light aboutus-title py-3" style="font-size:2em;">
-          <strong>
-            <span style="border-bottom: 5px solid #fff;margin-bottom: 5px;margin-right: 3px">A</span>BOUT&nbsp;US
-          </strong>
+        <h1 class="text-light aboutus-title py-3" style="font-size:2em;font-weight:normal">
+          <span style="border-bottom: 2px solid #fff;margin-bottom: 5px;margin-right: 3px">A</span>BOUT&nbsp;US
         </h1>
-        <p class="text-left aboutus-text text-white py-3">
+        <p class="aboutus-text text-white py-3 text-justify" style="font-size:1em">
           Since 2016,Genuine Education and Visa Services have
           been
           continuously providing the excellent service to clients to fulfill endeavor of living quality
@@ -97,20 +92,17 @@
         </p>
       </div>
       <div class="col-xs-12 col-md-8 services pb-5 pt-4 px-5">
-        <h1 class="text-primary services-title" style="font-size: 2em;">
-          <span style="border-bottom: 5px solid #000;margin-bottom: 5px;padding-right: 3px">S</span>ERVICES
+        <h1 class="text-primary services-title" style="font-size: 2em;font-weight:normal;">
+          <span style="border-bottom: 2px solid #000;margin-bottom: 5px;padding-right: 3px;">S</span>ERVICES
         </h1>
         <div class="row row-services" style="margin-top:40px;">
           <div class="col-xs-12 col-md-6">
             <div class="card card-services">
               <div class="card-body text-center">
-                <i class="fas fa-globe fa-3x py-2"></i>
-                <h4 class="card-title" style="font-size:1.6em;">
-                  <strong>Migration</strong>
-                  <br />
-                </h4>
+                <img src="../../static/img/icons/migration.png" class="img-responsive" width="35px" />
+                <h4 class="card-title" style="font-size:1.6em;">Migration</h4>
                 <h6
-                  class="text-muted card-subtitle my-3"
+                  class="text-muted card-subtitle my-2"
                 >Genuine gives you veritable and straightforward guidance, assists in documentation, makes you clear about every scenario, works sincerely and commits fully to understand each individual application and requirements.</h6>
               </div>
             </div>
@@ -118,11 +110,10 @@
           <div class="col-xs-12 col-md-6">
             <div class="card card-services">
               <div class="card-body text-center">
-                <i class="fas fa-globe fa-3x py-2"></i>
-                <h4 class="card-title" style="font-size:1.6em;">
-                  <strong>Skill Assesment</strong>
-                  <br />
-                </h4>
+                <img src="../../static/img/icons/skill.png" class="img-responsive" width="35px" />
+
+                <!-- <i class="fas fa-globe fa-3x py-2"></i> -->
+                <h4 class="card-title" style="font-size:1.6em;">Skill Assesment</h4>
                 <h6
                   class="text-muted card-subtitle my-3"
                 >To make sure that you meet the requirement of the occupation that you intend to involve you need to show the proof that you acquire the sufficient knowledge, qualified and experienced.</h6>
@@ -135,7 +126,11 @@
           <div class="col-xs-12 col-md-6">
             <div class="card card-services">
               <div class="card-body text-center">
-                <i class="fas fa-globe fa-3x py-2"></i>
+                <img
+                  src="../../static/img/icons/course_offered.png"
+                  class="img-responsive"
+                  width="35px"
+                />
                 <h4 class="card-title" style="font-size:1.6em;">Different Courses</h4>
                 <h6
                   class="text-muted card-subtitle my-3"
@@ -146,8 +141,45 @@
           <div class="col-xs-12 col-md-6">
             <div class="card card-services">
               <div class="card-body text-center">
-                <i class="fas fa-globe fa-3x py-2"></i>
+                <img
+                  src="../../static/img/icons/health_insurance.png"
+                  class="img-responsive"
+                  width="35px"
+                />
                 <h4 class="card-title" style="font-size:1.6em;">Overseas Health Insurance</h4>
+                <h6 class="text-muted card-subtitle my-3">
+                  Concerning healthcare, getting an OSHC for Australia is as important as it gets.
+                  Compare and buy between different plans and know what you pay for, get on the spot quotes etc. depending on the type of your visa cover.
+                </h6>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row row-services mt-5">
+          <div class="col-xs-12 col-md-6">
+            <div class="card card-services">
+              <div class="card-body text-center">
+                <img
+                  src="../../static/img/icons/course_change.png"
+                  class="img-responsive"
+                  width="35px"
+                />
+                <h4 class="card-title" style="font-size:1.6em;">Course Change</h4>
+                <h6
+                  class="text-muted card-subtitle my-3"
+                >Different courses like NATI , PTE , RPL have been offered by genuine to make you ready .</h6>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-md-6">
+            <div class="card card-services">
+              <div class="card-body text-center">
+                <img
+                  src="../../static/img/icons/professional_year.png"
+                  class="img-responsive"
+                  width="35px"
+                />
+                <h4 class="card-title" style="font-size:1.6em;">Professional Year</h4>
                 <h6 class="text-muted card-subtitle my-3">
                   Concerning healthcare, getting an OSHC for Australia is as important as it gets.
                   Compare and buy between different plans and know what you pay for, get on the spot quotes etc. depending on the type of your visa cover.
@@ -159,19 +191,47 @@
       </div>
     </div>
 
-    <div class="highlight-blues text-center py-5" style="background-color: #2D63C4;">
+    <div
+      class="highlight-blues text-center py-5"
+      style="background-color: #2D63C4;"
+      data-aos="zoom-in"
+    >
       <div class="container">
-        <div class="intro" style>
-          <h3 class="text-center text-white">WHY US</h3>
-          <p class="text-center text-white py-3">
-            Since 2016,Genuine Consultancy and Visa Services
-            have been continuously providing the excellent service to clients to fulfill endeavor of living
-            quality life in Australia.
-            <br />We provide end-to-end counseling and application management services to students searching for affordable university and college for various course in Diploma, Bachelor, Master
-            <br />
-          </p>
+        <div class="row">
+          <div class="col-xs-12 col-lg-6">
+            <div class="intro">
+              <h3 class="text-center text-white">WHY US</h3>
+              <p class="text-justify text-white py-3">
+                Since 2016,Genuine Consultancy and Visa Services
+                have been continuously providing the excellent service to clients to fulfill endeavor of living
+                quality life in Australia.
+                <br />We provide end-to-end counseling and application management services to students searching for affordable university and college for various course in Diploma, Bachelor, Master
+                <br />
+              </p>
+            </div>
+          </div>
+          <div class="col-xs-12 col-lg-6">
+            <img src="../../static/img/about_us.jpg" class="img-responsive px-5" width="100%" />
+          </div>
         </div>
-        <div class="buttons"></div>
+      </div>
+    </div>
+
+    <div class="section container mt-3 mb-5" data-aos="zoom-in">
+      <h2 class="my-2" style="font-weight:normal">Recent Activities</h2>
+      <div class="row py-4 recent-activities-images">
+        <div class="col-xs-12 col-lg-3">
+          <img src="../../static/img/recent_3.jpg" class="img-fluid" />
+        </div>
+        <div class="col-xs-12 col-lg-3">
+          <img src="../../static/img/recent_2.jpg" class="img-fluid" />
+        </div>
+        <div class="col-xs-12 col-lg-3">
+          <img src="../../static/img/recent_3.jpg" class="img-fluid" />
+        </div>
+        <div class="col-xs-12 col-lg-3">
+          <img src="../../static/img/recent_2.jpg" class="img-fluid" />
+        </div>
       </div>
     </div>
 
@@ -271,6 +331,9 @@ export default {};
 </script>
 
 <style scoped>
+* {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
 .mt-60 {
   margin-top: 60px;
 }
@@ -364,7 +427,7 @@ export default {};
   background: #5f27cd;
 }
 .card-body {
-  min-height: 290px;
+  min-height: 250px;
 }
 .card-body:hover {
   box-shadow: 8px 8px 8px 8px #888888;
@@ -384,6 +447,9 @@ export default {};
 .carousel {
   height: 85vh;
 }
+.fw_al_007_slide h1 {
+  font-size: 2.5em;
+}
 @media screen and (max-width: 800px) {
   .carousel {
     height: 50vh;
@@ -396,6 +462,13 @@ export default {};
   }
   .fw_al_007_slide {
     margin: 50px auto;
+    font-size: 0.5em;
+  }
+  .recent-activities-images img {
+    margin-top: 10px;
+  }
+  .serv-section-2 {
+    margin-top: 10px;
   }
 }
 </style>

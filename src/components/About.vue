@@ -1,16 +1,12 @@
 <template>
   <div>
-    <Jumbotron
-      title="About Us"
-      leadText=" We provide end-to-end counseling and application management services to students searching for affordable university and college for various course in Diploma, Bachelor, Master."
-      data-aos="zoom-in"
-    />
+    <Jumbotron title="About Us" data-aos="zoom-in" />
     <div class="highlight-phone py-5" data-aos="zoom-in">
       <div class="container">
         <div class="row">
           <div class="col-md-12">
             <div class="intro">
-              <p class="lead text-center">
+              <p class="lead text-center" style="text-align:justify">
                 Since 2016,Genuine Education and Visa Services have been continuously providing the excellent service to clients to fulfill endeavor of living quality life in Australia. We offer great service standards by adhering to the OMARA's code of conduct and comprising the competent and skilled employee.
                 <br />
                 <br />We provide end-to-end counseling and application management services to students searching for affordable university and college for various course in Diploma, Bachelor, Master. Our expertise includes Migration Service, Course Change, University Change, Visa Change, Family Migration, Skill Assessments, Recognition of Prior Learning(RPL), Professional Year, Health Insurance. Furthermore, we have PTE and NAATI course to help you achieve that extra points for PR.

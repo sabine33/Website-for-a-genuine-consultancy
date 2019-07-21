@@ -14,9 +14,12 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-4 col-md-6">
-            <!-- Single Service -->
             <div class="single-service">
-              <i class="fa fa-laptop"></i>
+              <img
+                src="../../static/img/icons/migration.png"
+                class="img-responsive py-1"
+                width="35px"
+              />
               <h4>Migration</h4>
               <p>Genuine gives you veritable and straightforward guidance, assists in documentation, makes you clear about every scenario, works sincerely and commits fully to understand each individual application and requirements.</p>
             </div>
@@ -24,7 +27,7 @@
           <div class="col-lg-4 col-md-6">
             <!-- Single Service -->
             <div class="single-service">
-              <i class="fa fa-gears"></i>
+              <img src="../../static/img/icons/skill.png" class="img-responsive py-1" width="35px" />
               <h4>Skill Assesment</h4>
               <p>To make sure that you meet the requirement of the occupation that you intend to involve you need to show the proof that you acquire the sufficient knowledge, qualified and experienced.</p>
             </div>
@@ -32,7 +35,11 @@
           <div class="col-lg-4 col-md-6">
             <!-- Single Service -->
             <div class="single-service">
-              <i class="fa fa-mobile"></i>
+              <img
+                src="../../static/img/icons/course_offered.png"
+                class="img-responsive py-1"
+                width="35px"
+              />
               <h4>Different Courses</h4>
               <p>Different courses like NATI , PTE , RPL have been offered by genuine to make you ready .</p>
             </div>
@@ -40,8 +47,36 @@
           <div class="col-lg-4 col-md-6">
             <!-- Single Service -->
             <div class="single-service">
-              <i class="fa fa-magic"></i>
+              <img
+                src="../../static/img/icons/health_insurance.png"
+                class="img-responsive py-1"
+                width="35px"
+              />
               <h4>Overseas Health Insurance</h4>
+              <p>Concerning healthcare, getting an OSHC for Australia is as important as it gets. Compare and buy between different plans and know what you pay for, get on the spot quotes etc. depending on the type of your visa cover.</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <!-- Single Service -->
+            <div class="single-service">
+              <img
+                src="../../static/img/icons/course_change.png"
+                class="img-responsive py-1"
+                width="35px"
+              />
+              <h4>Course Change</h4>
+              <p>Concerning healthcare, getting an OSHC for Australia is as important as it gets. Compare and buy between different plans and know what you pay for, get on the spot quotes etc. depending on the type of your visa cover.</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <!-- Single Service -->
+            <div class="single-service">
+              <img
+                src="../../static/img/icons/professional_year.png"
+                class="img-responsive py-1"
+                width="35px"
+              />
+              <h4>Professional Year</h4>
               <p>Concerning healthcare, getting an OSHC for Australia is as important as it gets. Compare and buy between different plans and know what you pay for, get on the spot quotes etc. depending on the type of your visa cover.</p>
             </div>
           </div>
