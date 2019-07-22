@@ -14,8 +14,9 @@ export default {
 
 <style scoped>
 .jumbotron {
-  background-image: url("../../static/img/bg.jpg");
+  background-image: url("../../static/img/banner_aboutus.jpg");
   background-size: cover;
+  background-origin: initial;
   background-repeat: no-repeat;
 
   color: #fff;
@@ -29,5 +30,6 @@ export default {
 }
 .jumbotron .lead {
   padding-top: 1rem;
+  text-align: justify;
 }
 </style>

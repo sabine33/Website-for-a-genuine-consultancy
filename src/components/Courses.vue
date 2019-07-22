@@ -2,16 +2,19 @@
   <div>
     <Jumbotron
       title="Our Courses"
-      leadText="Many people have arrived Australia with the dream of getting Permanent Residency here for better future and lifestyle. On the roadway to achieve this you need to gain a point barrier set by Australian government. If you need to get the enrolment in the university then also you need to present the score you obtained in
- english language standard maintained here in Australia.  Are you overwhelmed with this? Well don't worry we offer you the renowned course for this. PTE and NAATI."
+      leadText="Many people have arrived Australia with the dream of getting Permanent Residency here for better future and lifestyle. On the roadway to achieve this you need to gain a point barrier set by Australian government. If you need to get the enrolment in the university then also you need to present the score you obtained in english language standard maintained here in Australia. 
+Are you overwhelmed with this? Well don't worry we offer you the renowned course for this. PTE and NAATI."
       data-aos="zoom-in"
+      style=" background-image: url('../../static/img/banner_courses.jpg');background-size:cover;background-position:0% 0%"
     />
     <div class="container my-4">
       <div class="row my-2">
         <div class="card">
           <div class="row">
-            <div class="col-lg-7">
-              <h2 class="text-bold text-left">PTE</h2>
+            <div class="col-lg-7 px-4">
+              <h2 class="text-bold text-left">
+                <span style="border-bottom:2px solid #6ECDF9">P</span>TE
+              </h2>
               <p class="text-left my-3">
                 Pearson Test of English Academic commonly known as PTE is language test to assess non-native English speakers ability who are seeking to study or work. Knowing that if you wish to get enroll for this course we offer the fantastic teaching environment.
                 <br />
@@ -33,19 +36,22 @@
               <img src="../../static/img/services/pte.jpg" class="img-responsive" width="70%" />
             </div>
           </div>
+          <div class="bottom-box mx-auto my-4"></div>
         </div>
       </div>
-      <div class="row my-2">
+      <div class="row">
         <div class="card">
           <div class="row">
             <div class="col-lg-5 my-auto">
               <img src="../../static/img/services/naati.jpg" class="img-responsive" width="70%" />
             </div>
-            <div class="col-lg-7">
-              <h2 class="text-bold text-right">NAATI</h2>
+            <div class="col-lg-7 px-2">
+              <h2 class="text-bold text-left">
+                <span style="border-bottom:2px solid #6ECDF9">N</span>AATI
+              </h2>
               <p class="text-left my-3">
                 National Accreditation Authority for Translators and Interpreters commonly known as NAATI adds extra points for PR and makes you confident as translator and interpreter accredited by Credentialed Community Language (CCL).
-                The course can land you off good job at various organizations like government agencies, airport, hospitals, law firms and many more.
+                <br />The course can land you off good job at various organizations like government agencies, airport, hospitals, law firms and many more.
                 <br />So, why wait? Let's begin the venture and start the course earlier.
               </p>
               <div class="text-left py-2">
@@ -64,7 +70,9 @@
           </div>
         </div>
       </div>
-      <div class="row my-2">
+    </div>
+    <!--
+    <div class="row my-2">
         <div class="card">
           <div class="row">
             <div class="col-lg-7">
@@ -146,8 +154,7 @@
           </div>
         </div>
       </div>
-    </div>
-
+    -->
     <!-- <ServiceCard data-aos="zoom-in" /> -->
   </div>
 </template>
@@ -168,8 +175,18 @@ export default {
   margin-bottom: 50px;
   -webkit-transition: 0.3s;
   transition: 0.3s;
-  padding: 30px 20px;
-  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.16);
+  border: 0px;
+  padding: 0px 20px;
+  /* box-shadow: 0 1px 4px rgba(0, 0, 0, 0.16); */
   min-height: 350px;
+}
+.card h2 {
+  color: #05a8f3;
+}
+.bottom-box {
+  box-shadow: 1px 1px 1px 1px rgb(185, 231, 252);
+  width: 40%;
+  height: 1px;
+  background-color: rgb(185, 231, 252);
 }
 </style>

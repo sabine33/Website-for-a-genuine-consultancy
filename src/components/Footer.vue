@@ -3,23 +3,20 @@
     <footer>
       <div class="container">
         <div class="row">
-          <div class="col-xs-12 col-md-4 item text-center">
+          <div class="col-xs-12 col-md-4 item text-left">
             <h3>Services</h3>
             <ul>
               <li class="py-1">
-                <a href="#">Home</a>
+                <router-link to="/">Home</router-link>
               </li>
               <li class="py-1">
-                <a href="#">About Us</a>
+                <router-link to="/about">About Us</router-link>
               </li>
               <li class="py-1">
-                <a href="#">Services</a>
+                <router-link to="/courses">Courses</router-link>
               </li>
               <li class="py-1">
-                <a href="#">Courses</a>
-              </li>
-              <li class="py-1">
-                <a href="#">Contact Us</a>
+                <router-link to="/contact">Contact Us</router-link>
               </li>
             </ul>
           </div>
@@ -28,19 +25,24 @@
               <li class="py-1">
                 <a href="#">
                   <i class="fa fa-phone" style="font-size:1em;"></i>
-                  <span>+9978973837</span>
+                  <span>(03) 9670 1660</span>
                 </a>
               </li>
               <li class="py-1">
                 <a href="#">
                   <i class="fa fa-envelope" style="font-size:1em;"></i>
-                  <span>genuineconsultancy@gmail.com</span>
+                  <span>info@genuineconsultancy.com.au</span>
                 </a>
               </li>
               <li class="py-1">
                 <a href="#">
                   <i class="fa fa-map" style="font-size:1em;"></i>
-                  <span>Sydney,Australia</span>
+                  <span class>
+                    Level 2, Suite 2.14, 365 Little Collins street
+                    <span
+                      class="px-1"
+                    >(288.78 mi) Melbourne, Victoria, Australia 3000</span>
+                  </span>
                 </a>
               </li>
             </ul>

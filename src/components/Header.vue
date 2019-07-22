@@ -27,7 +27,7 @@
           <div class="col-xs-12 col-md-6 contact-information">
             <div class="pull-right">
               <span>
-                <i class="fa fa-phone"></i>&nbsp;0312 333 22 11
+                <i class="fa fa-phone"></i>&nbsp;(03) 9670 1660
               </span>
               <span>
                 <i class="fa fa-envelope"></i>&nbsp;info@genuineconsultancy.au
@@ -192,5 +192,9 @@ ul li a {
 }
 .navbar-btn {
   float: right;
+}
+
+.nav li a:hover {
+  border-bottom: 4px solid #7337f4;
 }
 </style>
