@@ -23,7 +23,7 @@
           <img src="static/img/banner1.jpg" alt="fw_al_007_01" />
 
           <!-- Slide Text Layer -->
-          <div class="fw_al_007_slide xs-py-2">
+          <div class="fw_al_007_slide">
             <h1 data-animation="animated flipInX ">Helping student to achieve their dream.</h1>
             <h3 class="py-2">WITH LESS STUFF, MORE MEANING</h3>
             <!-- 
@@ -32,37 +32,28 @@
         </div>
         <!-- End of Slide -->
 
-        <!-- Second Slide -->
         <div class="carousel-item">
-          <!-- Slide Background -->
           <img src="static/img/banner2.jpg" alt="fw_al_007_02" />
 
-          <!-- Slide Text Layer -->
-          <div class="fw_al_007_slide xs-py-2">
+          <div class="fw_al_007_slide">
             <h3 data-animation="animated flipInX">We are the leader in</h3>
             <h1 data-animation="animated flipInX py-2">
               <span>Consulting</span> and VISA Services
             </h1>
           </div>
         </div>
-        <!-- End of Slide -->
 
-        <!-- Third Slide -->
         <div class="carousel-item">
-          <!-- Slide Background -->
           <img src="static/img/banner3.jpg" alt="fw_al_007_03" />
 
-          <!-- Slide Text Layer -->
-          <div class="fw_al_007_slide xs-py-2">
+          <div class="fw_al_007_slide">
             <h3 data-animation="animated flipInX">CHANGE YOUR VISA FROM VISITOR TO</h3>
             <h1 data-animation="animated flipInX py-2">
               <span>STUDENT</span> ONE
             </h1>
           </div>
         </div>
-        <!-- End of Slide -->
       </div>
-      <!-- End of Wrapper For Slides -->
     </div>
 
     <div class="row aboutus" style="margin-right:0px;">
@@ -71,7 +62,9 @@
         style="margin: 0px;min-height: 100vh;background-color: rgb(3,169,245);"
       >
         <h1 class="text-light aboutus-title py-3" style="font-size:2em;font-weight:normal">
-          <span style="border-bottom: 2px solid #fff;margin-bottom: 5px;margin-right: 3px">A</span>BOUT&nbsp;US
+          <span
+            style="border-bottom: 2px solid #fff;margin-bottom: 5px;margin-right: 3px;padding-bottom:5px"
+          >A</span>BOUT&nbsp;US
         </h1>
         <p class="aboutus-text text-white py-3 text-justify" style="font-size:1em">
           Since 2016, Genuine Education and Visa Services have been continuously providing the excellent service to clients to fulfill endeavor of living quality life in Australia. We offer great service standards by adhering to the OMARA's code of conduct and comprising the competent and skilled employee.
@@ -81,7 +74,9 @@
       </div>
       <div class="col-xs-12 col-md-9 services pb-5 pt-4 px-5">
         <h1 class="text-primary services-title" style="font-size: 2em;font-weight:normal;">
-          <span style="border-bottom: 2px solid #000;margin-bottom: 5px;padding-right: 3px;">S</span>ERVICES
+          <span
+            style="border-bottom: 2px solid #3999FF;margin-bottom: 5px;padding-right: 3px;padding-bottom:5px"
+          >S</span>ERVICES
         </h1>
         <ServicesGrid />
       </div>
@@ -364,7 +359,7 @@ export default {
     height: 50vh;
   }
   .fw_al_007_slide {
-    margin: 50px auto;
+    margin: auto 50px;
     font-size: 0.5em;
   }
   .recent-activities-images img {

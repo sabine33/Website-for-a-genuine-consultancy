@@ -5,9 +5,9 @@
         <div class="card card-services">
           <div class="card-body text-center">
             <img src="../../static/img/icons/migration.png" class="img-responsive" width="80px" />
-            <h4 class="card-title">Migration</h4>
+            <h4 class="card-title m-3">Migration</h4>
             <h6
-              class="text-muted card-subtitle my-2"
+              class="text-muted card-subtitle my-2 text-justify"
             >Genuine gives you veritable and straightforward guidance, assists in documentation, makes you clear about every scenario, works sincerely and commits fully to understand each individual application and requirements.</h6>
           </div>
         </div>
@@ -18,9 +18,9 @@
             <img src="../../static/img/icons/skill.png" class="img-responsive" width="80px" />
 
             <!-- <i class="fas fa-globe fa-3x py-2"></i> -->
-            <h4 class="card-title" style="font-size:1.6em;">Skill Assesment</h4>
+            <h4 class="card-title m-3" style="font-size:1.6em;">University/Course Change</h4>
             <h6
-              class="text-muted card-subtitle my-3"
+              class="text-muted card-subtitle my-3 text-justify"
             >. Over 1500 students are satisfied with us for changing their initial course to next like Cookery, Hospitality, IT, Engineering, Nursing, Accounting.</h6>
           </div>
         </div>
@@ -33,9 +33,9 @@
               class="img-responsive"
               width="80px"
             />
-            <h4 class="card-title" style="font-size:1.6em;">Professional Year</h4>
+            <h4 class="card-title m-3" style="font-size:1.6em;">Professional Year</h4>
             <h6
-              class="text-muted card-subtitle my-3"
+              class="text-muted card-subtitle my-3 text-justify"
             >The 44 weeks program comprising of 12 weeks of internship lets you learn how to cope with workplace environment and communicate efficiently.</h6>
           </div>
         </div>
@@ -51,9 +51,9 @@
               class="img-responsive"
               width="80px"
             />
-            <h4 class="card-title" style="font-size:1.6em;">RPL</h4>
+            <h4 class="card-title m-3" style="font-size:1.6em;">RPL</h4>
             <h6
-              class="text-muted card-subtitle my-3"
+              class="text-muted card-subtitle my-3 text-justify"
             >Recognition of Prior Learning is an assessment process which verifies relevant prior learning to decide the credit outcomes of an individual application for credit. This makes you easy to complete the course you have been doing.</h6>
           </div>
         </div>
@@ -63,9 +63,9 @@
         <div class="card card-services">
           <div class="card-body text-center">
             <img src="../../static/img/icons/course_change.png" class="img-responsive" width="80px" />
-            <h4 class="card-title" style="font-size:1.6em;">Skill Assesment</h4>
+            <h4 class="card-title m-3" style="font-size:1.6em;">Skill Assesment</h4>
             <h6
-              class="text-muted card-subtitle my-3"
+              class="text-muted card-subtitle my-3 text-justify"
             >To make sure that you meet the requirement of the occupation that you intend to involve you need to show the proof that you acquire the sufficient knowledge, qualified and experienced</h6>
           </div>
         </div>
@@ -78,9 +78,9 @@
               class="img-responsive"
               width="80px"
             />
-            <h4 class="card-title" style="font-size:1.6em;">Health Insurance</h4>
+            <h4 class="card-title m-3" style="font-size:1.6em;">Health Insurance</h4>
             <h6
-              class="text-muted card-subtitle my-3"
+              class="text-muted card-subtitle my-3 text-justify"
             >No need to panic thinking to get in disaster of health loan, working out to make sure you get the right health insurance and let you have sound sleep is our responsibility.</h6>
           </div>
         </div>

@@ -4,7 +4,6 @@
       <div class="container">
         <div class="row">
           <div class="col-xs-12 col-md-4 item text-left">
-            <h3>Services</h3>
             <ul>
               <li class="py-1">
                 <router-link to="/">Home</router-link>

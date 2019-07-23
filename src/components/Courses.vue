@@ -13,13 +13,13 @@ Are you overwhelmed with this? Well don't worry we offer you the renowned course
           <div class="row">
             <div class="col-lg-7 px-4">
               <h2 class="text-bold text-left">
-                <span style="border-bottom:2px solid #6ECDF9">P</span>TE
+                <span style="border-bottom:3px solid #3999FF;padding-bottom:5px;">P</span>TE
               </h2>
-              <p class="text-left my-3">
+              <p class="text-justify my-3">
                 Pearson Test of English Academic commonly known as PTE is language test to assess non-native English speakers ability who are seeking to study or work. Knowing that if you wish to get enroll for this course we offer the fantastic teaching environment.
                 <br />
               </p>
-              <div class="text-left py-2">
+              <div class="text-justify py-2">
                 <h5>Why choose us?</h5>
                 <br />
                 <ul>
@@ -47,14 +47,14 @@ Are you overwhelmed with this? Well don't worry we offer you the renowned course
             </div>
             <div class="col-lg-7 px-2">
               <h2 class="text-bold text-left">
-                <span style="border-bottom:2px solid #6ECDF9">N</span>AATI
+                <span style="border-bottom:3px solid #3999FF;padding-bottom:5px;">N</span>AATI
               </h2>
-              <p class="text-left my-3">
+              <p class="text-justify my-3">
                 National Accreditation Authority for Translators and Interpreters commonly known as NAATI adds extra points for PR and makes you confident as translator and interpreter accredited by Credentialed Community Language (CCL).
                 <br />The course can land you off good job at various organizations like government agencies, airport, hospitals, law firms and many more.
                 <br />So, why wait? Let's begin the venture and start the course earlier.
               </p>
-              <div class="text-left py-2">
+              <div class="text-justify py-2">
                 <h5>Why choose us?</h5>
                 <br />
                 <ul>
@@ -184,9 +184,9 @@ export default {
   color: #05a8f3;
 }
 .bottom-box {
-  box-shadow: 1px 1px 1px 1px rgb(185, 231, 252);
+  box-shadow: 1px 1px 1px 1px #3999ff;
   width: 40%;
   height: 1px;
-  background-color: rgb(185, 231, 252);
+  background-color: #3999ff;
 }
 </style>
