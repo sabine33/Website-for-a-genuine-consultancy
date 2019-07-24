@@ -12,6 +12,9 @@
                 <router-link to="/about">About Us</router-link>
               </li>
               <li class="py-1">
+                <router-link to="/services">Services</router-link>
+              </li>
+              <li class="py-1">
                 <router-link to="/courses">Courses</router-link>
               </li>
               <li class="py-1">
@@ -53,7 +56,7 @@
           >
             <ul style="text-align: center;display:flex;justify-content:center;">
               <li class="px-3">
-                <a href="#">
+                <a href="https://www.facebook.com/GenuineEducationAustralia/">
                   <i class="fab fa-facebook fa-3x"></i>
                 </a>
               </li>

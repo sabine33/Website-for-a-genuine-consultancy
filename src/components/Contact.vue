@@ -69,24 +69,19 @@
                         <h2 class="h4"><i class="icon ion-ios-location-outline py-2"></i>&nbsp;Address</h2>
                         <div class="form-row">
                             <div class="col-12">
-                                <div class="static-map py-3"><iframe allowfullscreen="" frameborder="0" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyC1tTFOMrN3H3lHD9x7mbKI9Zbii5HSOD4+&amp;q=Sydney%2CAustralia&amp;zoom=11" width="100%" height="400"></iframe><a rel="noopener"
+                                <div class="static-map py-3"><iframe allowfullscreen="" frameborder="0" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyC1tTFOMrN3H3lHD9x7mbKI9Zbii5HSOD4+&amp;q=Suite 2.14, Level 2/365 Little Collins St, Melbourne VIC 3000&amp;zoom=11" width="100%" height="400"></iframe><a rel="noopener"
                                         href="https://www.google.com/maps/place/Daytona+International+Speedway/@29.1815062,-81.0744275,15z/data=!4m13!1m7!3m6!1s0x88e6d935da1cced3:0xa6b3e1bc0f2fc83a!2s1801+W+International+Speedway+Blvd,+Daytona+Beach,+FL+32114!3b1!8m2!3d29.187028!4d-81.0703076!3m4!1s0x88e6d949a4cb8593:0x1387c6c0b5c8cc97!8m2!3d29.1851681!4d-81.0705292"
                                         target="_blank"> </a></div>
                             </div>
-                            <div class="col-sm-6 col-md-12 col-lg-6 py-4">
-                                <h2 class="h4 my-2"><i class="icon ion-ios-people-outline"></i> Our Info</h2>
-                                <div class="py-2"><span><strong>Name</strong></span></div>
-                                <div><span>email@awebsite.com</span></div>
-                                <div><span>www.awebsite.com</span></div>
-                                <hr class="d-sm-none d-md-block d-lg-none">
-                            </div>
-                            <div class="col-sm-6 col-md-12 col-lg-6 py-4">
+                       
+                            <div class="col-sm-6 col-md-12 col-lg-9 py-4">
                                 <h2 class="h4 my-2"><i class="icon ion-ios-location-outline"></i>&nbsp;Location</h2>
-                                <div class="py-2"><span><strong>Office Name</strong></span></div>
-                                <div><span>55 Icannot Dr</span></div>
-                                <div><span>Daytone Beach, FL 85150</span></div>
-                                <div><abbr data-toggle="tooltip" data-placement="top" title="Office Phone: 555-867-5309">O:</abbr> 555-867-5309</div>
+                                <div class="py-2"><span><strong>Genuine Education and VISA Services</strong></span></div>
+                                <div><span>Level 2, Suite 2.14, 365 Little Collins street (288.78 mi)<br> Melbourne, Victoria, Australia 3000</span></div>
+                              
+                                <div><abbr data-toggle="tooltip" data-placement="top" title="Office Phone: (03) 9670 1660"></abbr> </div>
                                 <hr class="d-sm-none">
+                                
                             </div>
                         </div>
                     </div>

@@ -13,7 +13,7 @@ Are you overwhelmed with this? Well don't worry we offer you the renowned course
           <div class="row">
             <div class="col-lg-7 px-4">
               <h2 class="text-bold text-left">
-                <span style="border-bottom:3px solid #3999FF;padding-bottom:5px;">P</span>TE
+                <span style="border-bottom:2px solid #3999FF;padding-bottom:5px;">P</span>TE
               </h2>
               <p class="text-justify my-3">
                 Pearson Test of English Academic commonly known as PTE is language test to assess non-native English speakers ability who are seeking to study or work. Knowing that if you wish to get enroll for this course we offer the fantastic teaching environment.
@@ -47,7 +47,7 @@ Are you overwhelmed with this? Well don't worry we offer you the renowned course
             </div>
             <div class="col-lg-7 px-2">
               <h2 class="text-bold text-left">
-                <span style="border-bottom:3px solid #3999FF;padding-bottom:5px;">N</span>AATI
+                <span style="border-bottom:2px solid #3999FF;padding-bottom:5px;">N</span>AATI
               </h2>
               <p class="text-justify my-3">
                 National Accreditation Authority for Translators and Interpreters commonly known as NAATI adds extra points for PR and makes you confident as translator and interpreter accredited by Credentialed Community Language (CCL).
@@ -184,7 +184,7 @@ export default {
   color: #05a8f3;
 }
 .bottom-box {
-  box-shadow: 1px 1px 1px 1px #3999ff;
+  /* box-shadow: 1px 1px 1px 1px #3999ff; */
   width: 40%;
   height: 1px;
   background-color: #3999ff;

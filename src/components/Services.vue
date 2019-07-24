@@ -84,7 +84,7 @@
             <div class="row">
               <div class="col-lg-7 px-5 my-3">
                 <h2 class="text-bold text-left" style="color:#1C9DD4">
-                  <span style="border-bottom:3px solid #1C9DD4;padding-bottom:5px;">M</span>igration
+                  <span style="border-bottom:2px solid #1C9DD4;padding-bottom:5px;">M</span>igration
                 </h2>
                 <p class="text-justify my-4">
                   It's not an issue to have problem while applying for the study, live or work visa. Surely it involves the tedious and confusing work to go through multiple steps and keep the track of the process while doing the visa job. To get out of those nightmares we are always here to make you sit back and smile while we keep you inform about stage of application and not long wait to CONGRATS!!! with successful letter from Australian Home Affairs.
@@ -109,7 +109,7 @@
             <div class="row">
               <div class="col-lg-7 px-5 my-3">
                 <h2 class="text-bold text-left" style="color:#1C9DD4">
-                  <span style="border-bottom:3px solid #1C9DD4;padding-bottom:5px;">C</span>ourse/University change
+                  <span style="border-bottom:2px solid #1C9DD4;padding-bottom:5px;">C</span>ourse/University change
                 </h2>
                 <p class="text-justify my-4">
                   Don't worry for having the change of mind, financial problem and difficulty in understanding commenced course. There is always the opportunity to change your course and shift to next one. In some case even your unit credit gets transferred making your life easy. Need guidance on the way then don't hesitate to be on the way with us. Dedicated team is ready to serve you by understanding your need, skill, degree and give the best advice to work upon. Over 1500 students are satisfied with us for changing their initial course to next like Cookery, Hospitality, IT, Engineering, Nursing, Accounting.
@@ -132,7 +132,7 @@
             <div class="row">
               <div class="col-lg-7 px-5 my-3">
                 <h2 class="text-bold text-left" style="color:#1C9DD4">
-                  <span style="border-bottom:3px solid #1C9DD4;padding-bottom:5px;">P</span>rofessional Year
+                  <span style="border-bottom:2px solid #1C9DD4;padding-bottom:5px;">P</span>rofessional Year
                 </h2>
                 <p class="text-justify my-4">
                   The program builds you up professionally and opportune to acquire the industry level experience. This is suitable for student of Engineering/IT/Accounting to undertake and get feed with the knowledge to boost your career. The 44 weeks program comprising of 12 weeks of internship lets you learn how to cope with workplace environment and communicate efficiently.
@@ -155,7 +155,7 @@
             <div class="row">
               <div class="col-lg-7 px-5 my-3">
                 <h2 class="text-bold text-left" style="color:#1C9DD4">
-                  <span style="border-bottom:3px solid #1C9DD4;padding-bottom:5px;">R</span>PL
+                  <span style="border-bottom:2px solid #1C9DD4;padding-bottom:5px;">R</span>PL
                 </h2>
                 <p
                   class="text-justify my-4"
@@ -173,7 +173,7 @@
             <div class="row">
               <div class="col-lg-7 px-5 my-3">
                 <h2 class="text-bold text-left" style="color:#1C9DD4">
-                  <span style="border-bottom:3px solid #1C9DD4;padding-bottom:5px;">S</span>kill Assesment
+                  <span style="border-bottom:2px solid #1C9DD4;padding-bottom:5px;">S</span>kill Assesment
                 </h2>
                 <p
                   class="text-justify my-4"
@@ -195,7 +195,7 @@
             <div class="row">
               <div class="col-lg-7 px-5 my-3">
                 <h2 class="text-bold text-left" style="color:#1C9DD4">
-                  <span style="border-bottom:3px solid #1C9DD4;padding-bottom:5px;">H</span>ealth Insurance
+                  <span style="border-bottom:2px solid #1C9DD4;padding-bottom:5px;">H</span>ealth Insurance
                 </h2>
                 <p
                   class="text-justify my-4"
@@ -343,7 +343,7 @@ export default {
   line-height: 1.8;
 }
 .bottom-box {
-  box-shadow: 1px 1px 1px 1px #1c9dd4;
+  /* box-shadow: 1px 1px 1px 1px #1c9dd4; */
   width: 30%;
   height: 1px;
   background-color: #1c9dd4;

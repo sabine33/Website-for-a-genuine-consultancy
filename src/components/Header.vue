@@ -39,8 +39,9 @@
     </div>
     <nav class="navbar navbar-light bt-white navbar-expand-md" id="app-navbar">
       <div class="container">
-        <router-link to="/" class="navbar-brand" style="padding:15px 0px">
-          <span style="font-weight: bold;font-family:arial;">GENUINE CONSULTANCY</span>
+        <router-link to="/" class="navbar-brand" style="padding:0px 0px">
+          <img src="../../static/img/logo.png" width="200px" height="70px" />
+          <!-- <span style="font-weight: bold;font-family:arial;">GENUINE CONSULTANCY</span> -->
         </router-link>
 
         <button data-toggle="collapse" data-target="#navcol-1" class="navbar-toggler">

@@ -4,7 +4,11 @@
       <div class="col-xs-12 col-md-4">
         <div class="card card-services">
           <div class="card-body text-center">
-            <img src="../../static/img/icons/migration.png" class="img-responsive" width="80px" />
+            <img
+              src="../../static/img/services_icons/migration.png"
+              class="img-responsive"
+              width="80px"
+            />
             <h4 class="card-title m-3">Migration</h4>
             <h6
               class="text-muted card-subtitle my-2 text-justify"
@@ -15,7 +19,11 @@
       <div class="col-xs-12 col-md-4">
         <div class="card card-services">
           <div class="card-body text-center">
-            <img src="../../static/img/icons/skill.png" class="img-responsive" width="80px" />
+            <img
+              src="../../static/img/services_icons/unicour_change.png"
+              class="img-responsive"
+              width="80px"
+            />
 
             <!-- <i class="fas fa-globe fa-3x py-2"></i> -->
             <h4 class="card-title m-3" style="font-size:1.6em;">University/Course Change</h4>
@@ -29,7 +37,7 @@
         <div class="card card-services">
           <div class="card-body text-center">
             <img
-              src="../../static/img/icons/course_offered.png"
+              src="../../static/img/services_icons/professional_year.png"
               class="img-responsive"
               width="80px"
             />
@@ -47,14 +55,14 @@
         <div class="card card-services">
           <div class="card-body text-center">
             <img
-              src="../../static/img/icons/health_insurance.png"
+              src="../../static/img/services_icons/course_offered.png"
               class="img-responsive"
               width="80px"
             />
-            <h4 class="card-title m-3" style="font-size:1.6em;">RPL</h4>
+            <h4 class="card-title m-3" style="font-size:1.6em;">Courses</h4>
             <h6
               class="text-muted card-subtitle my-3 text-justify"
-            >Recognition of Prior Learning is an assessment process which verifies relevant prior learning to decide the credit outcomes of an individual application for credit. This makes you easy to complete the course you have been doing.</h6>
+            >If you need to get the enrolment in the university then also you need to present the score you obtained in english language standard maintained here in Australia.We provide various courses like NAATI and PTE to prepare you for that.</h6>
           </div>
         </div>
       </div>
@@ -62,7 +70,11 @@
       <div class="col-xs-12 col-md-4">
         <div class="card card-services">
           <div class="card-body text-center">
-            <img src="../../static/img/icons/course_change.png" class="img-responsive" width="80px" />
+            <img
+              src="../../static/img/services_icons/skill.png"
+              class="img-responsive"
+              width="80px"
+            />
             <h4 class="card-title m-3" style="font-size:1.6em;">Skill Assesment</h4>
             <h6
               class="text-muted card-subtitle my-3 text-justify"
@@ -74,7 +86,7 @@
         <div class="card card-services">
           <div class="card-body text-center">
             <img
-              src="../../static/img/icons/professional_year.png"
+              src="../../static/img/services_icons/health_insurance.png"
               class="img-responsive"
               width="80px"
             />
