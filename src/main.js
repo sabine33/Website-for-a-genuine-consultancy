@@ -16,7 +16,6 @@ import 'bootstrap-vue/dist/bootstrap-vue.css'
 new Vue({
   el: '#app',
   router,
-
   components: {
     App
   },

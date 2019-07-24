@@ -5,7 +5,7 @@
     <router-view />
 
     <vue-facebook-page
-      data-href="https://www.facebook.com/genuine.edu.consultant/"
+      data-href="https://www.facebook.com/GenuineEducationAustralia/"
       link-text="Genuine Consultancy"
     />
 

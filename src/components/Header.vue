@@ -7,7 +7,7 @@
             <div class="float-left">
               <ul>
                 <li>
-                  <a href="https://www.facebook.com/genuine.edu.consultant/">
+                  <a href="https://www.facebook.com/GenuineEducationAustralia/">
                     <i class="icon ion-social-facebook"></i>
                   </a>
                 </li>
