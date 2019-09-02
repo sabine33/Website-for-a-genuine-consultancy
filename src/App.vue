@@ -1,14 +1,11 @@
 <template>
   <div id="app">
     <Header />
-
     <router-view />
-
     <vue-facebook-page
       data-href="https://www.facebook.com/GenuineEducationAustralia/"
       link-text="Genuine Consultancy"
     />
-
     <Footer />
   </div>
 </template>

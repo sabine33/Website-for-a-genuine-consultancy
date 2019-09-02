@@ -10,8 +10,8 @@
     />
        <div class="py-5" style="margin-top: 0px;background-color: #EEF4F7;"       data-aos="zoom-in">
         <div class="container my-0">
-            <form id="contactForm" action="javascript:void(0);" method="get"><input class="form-control" type="hidden" name="Introduction" value="This email was sent from www.awebsite.com"><input class="form-control" type="hidden" name="subject" value="Awebsite.com Contact Form"><input class="form-control" type="hidden"
-                    name="to" value="email@awebsite.com">
+            <div id="contactForm">
+              
                 <div class="form-row">
                     <div class="col-md-6">
                         <div id="successfail"></div>
@@ -22,31 +22,37 @@
                         <!-- <h2 class="h4"><i class="icon ion-ios-email-outline py-2"></i> Contact Us</h2> -->
                         <div class="form-group"><label for="from-name">Name</label><span class="required-input">*</span>
                             <div class="input-group">
-                                <div class="input-group-prepend"><span class="input-group-text"><i class="fa fa-user-o"></i></span></div><input class="form-control" type="text" id="from-name" required=""></div>
+                                <div class="input-group-prepend"><span class="input-group-text"><i class="fa fa-user-o"></i></span></div><input class="form-control" type="text" id="from-name" required v-model="form.fullName"></div>
                         </div>
                         <div class="form-group"><label for="from-email">Email</label><span class="required-input">*</span>
                             <div class="input-group">
-                                <div class="input-group-prepend"><span class="input-group-text"><i class="fa fa-envelope-o"></i></span></div><input class="form-control" type="text" id="from-email" name="email" required="" placeholder="Email Address"></div>
+                                <div class="input-group-prepend"><span class="input-group-text"><i class="fa fa-envelope-o"></i></span></div><input class="form-control" type="text" id="from-email" name="email" required placeholder="Email Address" v-model="form.email"></div>
                         </div>
                         <div class="form-row">
                             <div class="col-12 col-sm-6 col-md-12 col-lg-6">
                                 <div class="form-group"><label for="from-phone">Phone</label><span class="required-input">*</span>
                                     <div class="input-group">
-                                        <div class="input-group-prepend"><span class="input-group-text"><i class="fa fa-phone"></i></span></div><input class="form-control" type="text" id="from-phone" name="phone" required="" placeholder="Primary Phone"></div>
+                                        <div class="input-group-prepend"><span class="input-group-text"><i class="fa fa-phone"></i></span></div><input class="form-control" type="text" id="from-phone" name="phone" required placeholder="Primary Phone" v-model="form.phone"></div>
                                 </div>
                             </div>
                             <div class="col-12 col-sm-6 col-md-12 col-lg-6">
                                 <div class="form-group"><label for="from-calltime">Best Time to Call</label>
                                     <div class="input-group">
-                                        <div class="input-group-prepend"><span class="input-group-text"><i class="fa fa-clock-o"></i></span></div><select class="form-control" id="from-calltime" name="call time"><optgroup label="Best Time to Call"><option value="Morning" selected="">Morning</option><option value="Afternoon">Afternoon</option><option value="Evening">Evening</option></optgroup></select></div>
+                                        <div class="input-group-prepend"><span class="input-group-text"><i class="fa fa-clock-o"></i></span></div>
+                                        <select class="form-control" id="from-calltime" name="call time" required v-model="form.bestTimetocall">
+                                            <optgroup label="Best Time to Call">
+                                                <option :value="time" selected="" v-for="time in times">{{time}}</option>
+                                             
+                                                </optgroup>
+                                                </select></div>
                                 </div>
                             </div>
                         </div>
-                        <div class="form-group"><label for="from-comments">Comments</label><textarea class="form-control" id="from-comments" name="comments" placeholder="Enter Comments" rows="5"></textarea></div>
+                        <div class="form-group"><label for="from-comments">Comments</label><textarea class="form-control" id="from-comments" name="comments" placeholder="Enter Comments" rows="5" v-model="form.message" required></textarea></div>
                         <div class="form-group">
                             <div class="form-row">
-                                <div class="col"><button class="btn btn-primary btn-block" type="reset"><i class="fa fa-undo"></i> Reset</button></div>
-                                <div class="col"><button class="btn btn-primary btn-block" type="submit">Submit <i class="fa fa-chevron-circle-right"></i></button></div>
+                                <div class="col"><button class="btn btn-primary btn-block" type="reset" @click="onReset"><i class="fa fa-undo"></i> Reset</button></div>
+                                <div class="col"><button class="btn btn-primary btn-block" type="submit" @click="onSubmit">Submit <i class="fa fa-chevron-circle-right"></i></button></div>
                             </div>
                         </div>
                         <hr class="d-flex d-md-none">
@@ -87,7 +93,7 @@
                     </div>
                    
                 </div>
-            </form>
+            </div>
         </div>
      
     </div>
@@ -95,9 +101,53 @@
 </template>
 
 <script>
+import axios from "axios"
 import Jumbotron from "./Jumbotron";
+import {SendMail} from "../SendMail"
 export default {
-  components: { Jumbotron }
+  components: { Jumbotron },
+  data(){
+      return{
+          times:["Morning","Day","Evening","Night"],
+          form:{
+              fullName:"",
+              email:"",
+              phone:"",
+              message:""
+          }
+      }
+  },
+  methods:{
+      onReset(){
+          this.form.fullName="";
+          this.form.email="";
+          this.form.phone="";
+          this.form.message="";
+          this.form.bestTimetocall="";
+      },
+      onSubmit(){
+
+
+const msg =   `FullName : ${this.form.fullName} Phone: ${this.form.phone} Email: ${this.form.email} ,Best time to call:${this.form.bestTimetocall} Message: ${this.form.message}`;
+
+
+alert(JSON.stringify(msg));
+SendMail(this.form.email,"CONTACT US",msg);
+    //  axios
+    //     .post("https://genuineconsultancy.com.au/static/mail.php", {
+    //       email: this.form.email,
+    //       subject: "Contact Us",
+    //       message: msg.text
+    //     })
+    //   .then(result => {
+    //       alert((result));
+    //     })
+    //     .catch(error => {
+    //       alert(JSON.stringify(error));
+    //     });
+    //   }
+  }
+  }
 };
 </script>
 

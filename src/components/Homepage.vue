@@ -113,21 +113,57 @@
       </div>-->
     </div>
 
-    <div class="section container mt-4 mb-5" data-aos="zoom-in">
-      <h2 class="my-2 text-center" style="font-weight:normal">Recent Activities</h2>
-      <div class="row py-4 recent-activities-images">
-        <div class="col-xs-12 col-lg-3">
-          <img src="../../static/img/recent_3.jpg" class="img-fluid" />
+    <div
+      class="section container-fluid text-white pt-4 pb-5 text-center"
+      style="background-color: rgb(3,169,245);"
+    >
+      <div class="container">
+        <h2 class="my-1 mb-3 text-left" style="font-weight:400">
+          <span
+            style="border-bottom: 2px solid #000;margin-bottom: 5px;padding-right: 3px;padding-bottom:5px;"
+          >A</span>CCREDIATIONS
+        </h2>
+        <div class="row py-4 recent-activities-images d-flex align-items-center">
+          <div class="col-xs-12 col-lg-4">
+            <img src="../../static/img/mara.png" class="img-fluid text-center" width="60%" />
+          </div>
+          <div class="col-xs-12 col-lg-4">
+            <img src="../../static/img/mia.png" class="img-fluid text-center" width="60%" />
+          </div>
+          <div class="col-xs-12 col-lg-4">
+            <img src="../../static/img/qeac.png" class="img-fluid text-center" width="60%" />
+          </div>
         </div>
-        <div class="col-xs-12 col-lg-3">
-          <img src="../../static/img/recent_2.jpg" class="img-fluid" />
-        </div>
-        <div class="col-xs-12 col-lg-3">
-          <img src="../../static/img/recent_3.jpg" class="img-fluid" />
-        </div>
-        <div class="col-xs-12 col-lg-3">
-          <img src="../../static/img/recent_2.jpg" class="img-fluid" />
-        </div>
+      </div>
+    </div>
+
+    <div class="section container mt-4 mb-5">
+      <h2 class="my-2 text-left" style="font-weight:400">
+        <span
+          style="border-bottom: 2px solid #3999FF;margin-bottom: 5px;padding-right: 3px;padding-bottom:5px"
+        >R</span>ECENT ACTIVITIES
+      </h2>
+      <div class="row py-5 recent-activities-images">
+        <carousel autoplay="true" :nav="false" class="col-lg-12 col-xs-12">
+          <div class="col-xs-12 col-lg-12">
+            <img src="../../static/img/recents/1.jpg" class="img-fluid" />
+          </div>
+          <div class="col-xs-12 col-lg-12">
+            <img src="../../static/img/recents/2.jpg" class="img-fluid" />
+          </div>
+          <div class="col-xs-12 col-lg-12">
+            <img src="../../static/img/recents/3.jpg" class="img-fluid" />
+          </div>
+          <div class="col-xs-12 col-lg-12">
+            <img src="../../static/img/recents/4.jpg" class="img-fluid" />
+          </div>
+          <div class="col-xs-12 col-lg-12">
+            <img src="../../static/img/recents/5.jpg" class="img-fluid" />
+          </div>
+          <div class="col-xs-12 col-lg-12">
+            <img src="../../static/img/recents/6.jpg" class="img-fluid" />
+          </div>
+        </carousel>
       </div>
     </div>
 
@@ -224,8 +260,10 @@
 
 <script>
 import ServicesGrid from "./ServicesGrid";
+import carousel from "vue-owl-carousel";
+
 export default {
-  components: { ServicesGrid }
+  components: { ServicesGrid, carousel }
 };
 </script>
 

@@ -46,6 +46,10 @@
                     >(288.78 mi) Melbourne, Victoria, Australia 3000</span>
                   </span>
                 </a>
+                <a href="https://www.mara.gov.au/media/553229/Code_of_Conduct_April_2017.pdf">
+                  <i class="fa fa-book" style="font-size:1em;"></i>
+                  <span class="px-1 text-warning">Code of Conduct</span>
+                </a>
               </li>
             </ul>
           </div>

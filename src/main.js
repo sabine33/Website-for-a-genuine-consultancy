@@ -5,10 +5,15 @@ import App from './App'
 import router from './router'
 import BootstrapVue from 'bootstrap-vue'
 import VueFacebookPage from 'vue-facebook-page'
+import VueCarousel from 'vue-carousel';
+
 
 Vue.use(BootstrapVue)
 Vue.config.productionTip = false
 Vue.use(VueFacebookPage, "454191771605285")
+
+
+Vue.use(VueCarousel);
 
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'

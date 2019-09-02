@@ -91,53 +91,42 @@
       @hidden="resetModal"
       @ok="handleOk"
     >
-      <form ref="form" @submit.stop.prevent="handleSubmit">
-        <b-form-group
-          label="Name"
-          label-for="name-input"
-          invalid-feedback="Name is required"
-          :state="nameState"
-        >
-          <b-form-input id="name-input" v-model="name" required></b-form-input>
+      <div>
+        <b-form-group label="Name" label-for="name-input" invalid-feedback="Name is required">
+          <b-form-input id="name-input" v-model="form.fullName" required></b-form-input>
         </b-form-group>
-        <b-form-group
-          label="Email"
-          label-for="email-input"
-          invalid-feedback="Email is required"
-          :state="emailState"
-        >
-          <b-form-input id="email-input" v-model="email" type="email" required></b-form-input>
+        <b-form-group label="Email" label-for="email-input" invalid-feedback="Email is required">
+          <b-form-input id="email-input" v-model="form.email" type="email" required></b-form-input>
         </b-form-group>
         <b-form-group
           label="Message"
           label-for="message-input"
           invalid-feedback="Message is required"
-          :state="messageState"
         >
           <b-form-textarea
             id="message"
-            v-model="message"
+            v-model="form.message"
             placeholder="Enter your message..."
             rows="3"
             max-rows="3"
+            required
           ></b-form-textarea>
         </b-form-group>
-      </form>
+      </div>
     </b-modal>
   </div>
 </template>
  
 <script>
+import sgMail from "@sendgrid/mail";
+import axios from "axios";
+import { SendMail } from "../SendMail";
 export default {
   data() {
     return {
       toggledNav: false,
-      name: "",
-      email: "",
-      message: "",
-      nameState: null,
-      emailState: null,
-      messageState: null
+      form: { fullName: "", email: "", message: "" },
+      credentials: {}
     };
   },
   methods: {
@@ -145,15 +134,15 @@ export default {
       this.$refs.collapse.classList.toggle("show");
     },
     checkFormValidity() {
-      const valid = this.$refs.form.checkValidity();
-      this.nameState = valid ? "valid" : "invalid";
-      this.emailState = valid ? "valid" : "invalid";
-      this.messageState = valid ? "valid" : "invalid";
-
-      return this.nameState && this.emailState && this.messageState;
+      return (
+        this.form.email.length > 5 &&
+        this.form.email.indexOf("@") > 0 &&
+        this.form.message.length > 10 &&
+        this.form.fullName.length > 2
+      );
     },
     resetModal() {
-      this.name = "";
+      this.form.fullName = "";
     },
     handleOk(bvModalEvt) {
       // Prevent modal from closing
@@ -161,17 +150,41 @@ export default {
       this.handleSubmit();
     },
     handleSubmit() {
-      // Exit when the form isn't valid
       if (!this.checkFormValidity()) {
-        return;
-      }
-      // Push the name to submitted names
-      alert("Your message has been successfully sent");
-
-      // Hide the modal manually
-      this.$nextTick(() => {
+        alert("Please fill the details carefully");
+      } else {
+        let message = {
+          name: this.form.fullName,
+          email: this.form.email,
+          message: this.form.message
+        };
+        let msg = `${message.name} said ${message.message}`;
+        SendMail(message.email, "Asking a question", message.message);
         this.$refs.modal.hide();
-      });
+      }
+    },
+    sendMail() {
+      // axios
+      //   .post("https://genuineconsultancy.com.au/static/mail.php", {
+      //     email: this.form.email,
+      //     subject: "ASK A QUESTION",
+      //     message: message
+      //   })
+      //   .then(result => {
+      //     alert(result);
+      //   })
+      //   .catch(error => {
+      //     alert(JSON.stringify(error));
+      //   });
+      // Email.send({
+      //   Host: "smtp.elasticemail.com",
+      //   Username: "info@genuineconsultancy.com.au",
+      //   Password: "43bbda11-df7a-4067-b0d4-8212d157a5d6",
+      //   To: "sabin.khanal.33@gmail.com",
+      //   From: "sabin.khanal.33@gmail.com",
+      //   Subject: "This is the test subject",
+      //   Body: "And this is the test body"
+      // }).then(message => alert(message));
     }
   },
   watch: {
