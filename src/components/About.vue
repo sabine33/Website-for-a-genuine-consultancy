@@ -24,60 +24,85 @@
       <div class="container">
         <div class="intro">
           <h2 class="text-center">Our Team</h2>
-          <p class="text-center">
-            Nunc luctus in metus eget fringilla. Aliquam sed justo ligula. Vestibulum
-            nibh
-            erat, pellentesque ut laoreet vitae.
-          </p>
+          <p class="text-center">Our team of professionals is ready to help you in your every steps.</p>
         </div>
         <div class="row people">
           <div class="col-md-6 col-lg-4 item">
             <div class="box">
-              <img class="rounded-circle" src="static/img/1.jpg" />
-              <h3 class="name">Ben Johnson</h3>
-              <p class="title">Musician</p>
-              <p class="description">
-                Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus.
-                Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, et interdum justo
-                suscipit id. Etiam dictum feugiat tellus, a semper massa.
-              </p>
-              <!-- <div class="social">
-                <a href="#">
-                  <i class="fa fa-facebook-official"></i>
-                </a>
-                <a href="#">
-                  <i class="fa fa-twitter"></i>
-                </a>
-                <a href="#">
-                  <i class="fa fa-instagram"></i>
-                </a>
-              </div>-->
+              <img class="rounded-circle" src="static/img/teams/suman_deuja.jpg" />
+              <h3 class="name">Suman Deuja</h3>
+              <p class="title">Managing Director</p>
+              <div class="description">
+                <p style>
+                  REGISTERED MIGRATION AGENT (MARN No:1685956)
+                  <br />QEAC No:L300
+                  <br />MIA: 17219
+                  <br />Professional Trainer:TAE40116
+                  <br />Master of Laws,Bachelor of Business Administration, Graduate Diploma of Migration
+                </p>
+              </div>
             </div>
           </div>
           <div class="col-md-6 col-lg-4 item">
             <div class="box">
-              <img class="rounded-circle" src="static/img/2.jpg" />
-              <h3 class="name">Emily Clark</h3>
-              <p class="title">Artist</p>
-              <p class="description">
-                Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus.
-                Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, et interdum justo
-                suscipit id. Etiam dictum feugiat tellus, a semper massa.
-              </p>
+              <img class="rounded-circle" src="static/img/teams/sambridhi_rijal.jpg" />
+              <h3 class="name">Sambridhi Rijal</h3>
+              <p
+                class="title"
+              >Business Development Manager/Education Consultant /NAATI (Nepali) Instructor</p>
+              <div class="description">
+                <p style>
+                  QEAC No:Q530
+                  <br />Professional Trainer:TAE40116
+                  <br />Master of Arts in Political Science
+                  <br />Master of Arts in Sociology
+                  <br />Bachelor of Arts in Sociology / Major English
+                </p>
+              </div>
             </div>
           </div>
+          <!--box start-->
           <div class="col-md-6 col-lg-4 item">
             <div class="box">
-              <img class="rounded-circle" src="static/img/3.jpg" />
-              <h3 class="name">Carl Kent</h3>
-              <p class="title">Stylist</p>
-              <p class="description">
-                Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus.
-                Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, et interdum justo
-                suscipit id. Etiam dictum feugiat tellus, a semper massa.
-              </p>
+              <img class="rounded-circle" src="static/img/teams/laxmi_khanal.jpg" />
+              <h3 class="name">Laxmi Khanal</h3>
+              <p class="title">International Director/Education Consultant</p>
+              <div class="description">
+                <p>
+                  QEAC No:Q547
+                  <br />MOE Education Counselor:2246
+                  <br />Master of Information Technology, Bachelor of Business
+                </p>
+              </div>
             </div>
           </div>
+          <!--box end-->
+
+          <!--box start-->
+          <div class="col-md-6 col-lg-4 item">
+            <div class="box">
+              <img class="rounded-circle" src="static/img/teams/shesh_dahal.jpg" />
+              <h3 class="name">Shesh Dahal</h3>
+              <p class="title">Accountant</p>
+              <div class="description">
+                <p>MPA/MBA, Bachelor of Hotel Management</p>
+              </div>
+            </div>
+          </div>
+          <!--box end-->
+
+          <!--box start-->
+          <div class="col-md-6 col-lg-4 item">
+            <div class="box">
+              <img class="rounded-circle" src="static/img/teams/saugat_karki.jpg" />
+              <h3 class="name">Saugat Karki</h3>
+              <p class="title">Education Counselor / PTE Instructor</p>
+              <div class="description">
+                <p>Bachelor of Accounting</p>
+              </div>
+            </div>
+          </div>
+          <!--box end-->
         </div>
       </div>
     </div>
@@ -102,11 +127,38 @@ export default {
 .team-boxed .intro {
   font-size: 1.2em;
 }
+
 .box {
   font-size: 1.2em;
+  /* min-height: 520px; */
+  height: 520px;
+  max-height: 520px;
 }
-.name {
-  font-size: 1.2em;
-  color: #ddd;
+.box .name {
+  font-size: 1.1em;
+  color: #222;
+  text-transform: uppercase;
+}
+.box .name:hover {
+  color: blueviolet;
+}
+.box .title {
+  color: #555;
+  padding-top: 20px;
+}
+
+.box .description p {
+  color: #000;
+  font-size: 1em;
+  text-align: center justify;
+  font-weight: 400;
+}
+.box img {
+  max-height: 150px;
+  width: 100%;
+  object-fit: cover;
+}
+.box img:hover {
+  transform: scale(1.2);
 }
 </style>

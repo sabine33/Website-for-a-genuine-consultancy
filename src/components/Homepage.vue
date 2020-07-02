@@ -15,7 +15,6 @@
         <li data-target="#fw_al_007" data-slide-to="2"></li>
       </ol>
 
-      <!-- Wrapper For Slides -->
       <div class="carousel-inner" role="listbox">
         <!-- First Slide -->
         <div class="carousel-item active">
@@ -166,95 +165,6 @@
         </carousel>
       </div>
     </div>
-
-    <!-- <div class="section-block-grey" data-aos="zoom-in">
-      <div class="container">
-        <div class="section-heading center-holder">
-          <h3>Doing the right thing at the right time</h3>
-          <div class="section-heading-line"></div>
-          <p>Genuine Consultancy will help you achieve your goals with best consultation you can hope for.</p>
-        </div>
-        <div class="row mt-60">
-          <div class="col-md-4 col-sm-12 col-12">
-            <div class="serv-section-2">
-              <div class="serv-section-2-icon">
-                <i class="fas fa-gem"></i>
-              </div>
-              <div class="serv-section-desc">
-                <h4>Planning</h4>
-                <h5>Planning Consultation</h5>
-              </div>
-              <div class="section-heading-line-left"></div>
-            </div>
-          </div>
-          <div class="col-md-4 col-sm-12 col-12">
-            <div class="serv-section-2 serv-section-2-act">
-              <div class="serv-section-2-icon serv-section-2-icon-act">
-                <i class="fas fa-cogs"></i>
-              </div>
-              <div class="serv-section-desc">
-                <h4>Courses</h4>
-                <h5>7 Different Educational Courses</h5>
-              </div>
-              <div class="section-heading-line-left"></div>
-            </div>
-          </div>
-          <div class="col-md-4 col-sm-12 col-12">
-            <div class="serv-section-2">
-              <div class="serv-section-2-icon">
-                <i class="fas fa-signature"></i>
-              </div>
-              <div class="serv-section-desc">
-                <h4>Team RMA</h4>
-                <h5>26 Law Experts</h5>
-              </div>
-              <div class="section-heading-line-left"></div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>-->
-
-    <!-- <div style="background-color: #ffffff;" data-aos="zoom-in">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <aside id="section-clients" class="clients">
-              <div class="container">
-                <div class="col-lg-12 text-center py-3 clients-title" style>
-                  <h3>
-                    OUR
-                    <b>PARTNERS</b>
-                  </h3>
-                </div>
-                <div class="row">
-                  <div class="col-xs-12 col-md-3 text-center">
-                    <a href="#">
-                      <img class="img-fluid" src="static/img/envato.jpg" />
-                    </a>
-                  </div>
-                  <div class="col-xs-12 col-md-3 text-center">
-                    <a href="#">
-                      <img class="img-fluid" src="static/img/designmodo.jpg" />
-                    </a>
-                  </div>
-                  <div class="col-xs-12 col-md-3 text-center">
-                    <a href="#">
-                      <img class="img-fluid" src="static/img/themeforest.jpg" />
-                    </a>
-                  </div>
-                  <div class="col-xs-12 col-md-3 text-center">
-                    <a href="#">
-                      <img class="img-fluid" src="static/img/creative-market.jpg" />
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </aside>
-          </div>
-        </div>
-      </div>
-    </div>-->
   </section>
 </template>
 

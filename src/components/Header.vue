@@ -54,16 +54,45 @@
         <div class="collapse navbar-collapse" id="navcol-1" ref="collapse">
           <ul class="nav navbar-nav ml-auto">
             <li role="presentation" class="nav-item">
-              <router-link to="/" class="nav-link active">HOME</router-link>
+              <router-link to="/" class="nav-link">HOME</router-link>
             </li>
             <li role="presentation" class="nav-item">
               <router-link to="/about" class="nav-link">ABOUT US</router-link>
             </li>
-            <li role="presentation" class="nav-item">
-              <router-link to="/services" class="nav-link">SERVICES</router-link>
+            <li class="nav-item services_menu" role="presentation">
+              <div class="dropdown">
+                <button
+                  class="btn dropdown-toggle"
+                  type="button"
+                  id="dropdownMenuButton"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >SERVICES</button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <router-link class="dropdown-item" to="/services/migration">Migration</router-link>
+                  <router-link
+                    class="dropdown-item"
+                    to="/services/university_change"
+                  >Course/University Change</router-link>
+                  <router-link
+                    class="dropdown-item"
+                    to="/services/professional_year"
+                  >Professional Year</router-link>
+                  <router-link class="dropdown-item" to="/services/rpl">RPL</router-link>
+                  <router-link class="dropdown-item" to="/services/skill_assesment">Skill Assesment</router-link>
+                  <router-link
+                    class="dropdown-item"
+                    to="/services/health_insurance"
+                  >Health Insurance</router-link>
+                </div>
+              </div>
             </li>
+            <!-- <li role="presentation" class="nav-item">
+              <router-link to="/services" class="nav-link">SERVICES</router-link>
+            </li>-->
             <li role="presentation" class="nav-item">
-              <router-link to="/courses" class="nav-link">COURSES</router-link>
+              <router-link to="/courses" class="nav-link">NAATI/PTE</router-link>
             </li>
             <li role="presentation" class="nav-item">
               <router-link to="/testimonials" class="nav-link">TESTIMONIALS</router-link>
@@ -163,29 +192,7 @@ export default {
         this.$refs.modal.hide();
       }
     },
-    sendMail() {
-      // axios
-      //   .post("https://genuineconsultancy.com.au/static/mail.php", {
-      //     email: this.form.email,
-      //     subject: "ASK A QUESTION",
-      //     message: message
-      //   })
-      //   .then(result => {
-      //     alert(result);
-      //   })
-      //   .catch(error => {
-      //     alert(JSON.stringify(error));
-      //   });
-      // Email.send({
-      //   Host: "smtp.elasticemail.com",
-      //   Username: "info@genuineconsultancy.com.au",
-      //   Password: "43bbda11-df7a-4067-b0d4-8212d157a5d6",
-      //   To: "sabin.khanal.33@gmail.com",
-      //   From: "sabin.khanal.33@gmail.com",
-      //   Subject: "This is the test subject",
-      //   Body: "And this is the test body"
-      // }).then(message => alert(message));
-    }
+    sendMail() {}
   },
   watch: {
     $route() {
@@ -202,13 +209,20 @@ ul li {
 ul li a {
   font-weight: 400;
 }
-.topbar {
-}
+
 .navbar-btn {
   float: right;
 }
 
 .nav li a:hover {
   border-bottom: 4px solid #7337f4;
+}
+
+/* .router-link-active {
+  font-weight: normal;
+} */
+.services_menu,
+.dropdown button {
+  color: rgba(0, 0, 0, 0.5) !important;
 }
 </style>

@@ -15,7 +15,7 @@
               >Simply the best consultancy in the town. Very happy with this Genuine team’s efforts and was a pleasure working with this Big Bro Sam Nepali. Such a good guy. Keep helping people like you do always and people will always trust you.</p>
             </div>
             <div class="author">
-              <img class="rounded-circle" src="static/img/1.jpg" />
+              <img class="rounded-circle" src="static/img/testimonials/avinash.jpg" />
               <h5 class="name">Avi Nash</h5>
               <p class="title">Student</p>
             </div>
@@ -27,7 +27,7 @@
               >What a great experience? i dont have word to explain how happy i am ..i got visitor visa for all my family to attend graduation ceremony. Thanks Genuine Team for making my dream into a reality.</p>
             </div>
             <div class="author">
-              <img class="rounded-circle" src="static/img/3.jpg" />
+              <img class="rounded-circle" src="static/img/testimonials/ganesh.jpg" />
               <h5 class="name">Ganesh Pyakurel</h5>
               <p class="title">Student</p>
             </div>
@@ -39,7 +39,7 @@
               >The best decision I ever made was choosing Genuine Education and visa services. Despite the time limits and the complications I had my work done and it succeed as well. Thankyou suman dai and Genuine Education and visa services</p>
             </div>
             <div class="author">
-              <img class="rounded-circle" src="static/img/2.jpg" />
+              <img class="rounded-circle" src="static/img/testimonials/sonita.jpg" />
               <h5 class="name">Sonita Sharma</h5>
               <p class="title">Student</p>
             </div>
@@ -57,5 +57,5 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 </style>

@@ -84,9 +84,6 @@
 </template>
 
 <style scoped>
-/* .social ul li a i {
-  font-size: 1.5em;
-} */
 .footer-dark {
   padding: 40px 0px;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
