@@ -1,3 +1,12 @@
+Development process:
+After making any changes run , 
+npm run dev 
+
+Build Process:
+npm run build
+:it'll generate dist folder with all updated changes.
+Upload dist folder to ftp address as given.
+
 
 git clone https://username@github.com/username/repo_name
 
