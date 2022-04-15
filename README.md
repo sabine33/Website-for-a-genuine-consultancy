@@ -1,19 +1,24 @@
-Development process:
-After making any changes run , 
-npm run dev 
+** Development process:
+After making any changes run : 
 
-Build Process:
+``` bash
+npm run dev
+``` 
+
+** Build Process:
+
+``` bash
 npm run build
-:it'll generate dist folder with all updated changes.
+```
+
+
+it'll generate dist folder with all updated changes.
 Upload dist folder to ftp address as given.
-
-
-git clone https://username@github.com/username/repo_name
 
 
 # genuine
 
-> Genuine Consultancy Website
+> Consultancy Website
 
 ## Build Setup
 
@@ -31,4 +36,3 @@ npm run build
 npm run build --report
 ```
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
