@@ -1,7 +1,6 @@
 import sgMail from "@sendgrid/mail"
 export const SendMail = function (fromMail, subject, message) {
-  const API_KEY =
-    "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";
+  const API_KEY ="";
   sgMail.setApiKey(API_KEY);
   const msg = {
     //'info@genuineconsultancy.com.au'
