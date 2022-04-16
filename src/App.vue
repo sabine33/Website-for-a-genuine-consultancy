@@ -39,7 +39,7 @@ export default {
 
 <style>
 body {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Poppins", Tahoma, Geneva, Verdana, sans-serif;
   font-weight: 300;
 }
 #facebook-clicker {
